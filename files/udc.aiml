@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <!-- Greeting pattern -->
+    
+    <category>
+        <pattern>Hello</pattern>
+        <template>
+            The Coffee House xin chào!<br/>
+            <image>https://i.ytimg.com/vi/BXMnv80sfGk/maxresdefault.jpg</image>
+            Tháng 2 này chúng tôi hân hạnh gửi tặng Quý khách hàng chương trình khuyến mãi hấp dẫn khi mua 2 cốc trở lên sẽ được tặng 1 cốc
+            <image>https://stc.shopiness.vn/deal/2020/09/07/b/f/9/9/1599474152540_540.jpg</image>
+            Tôi có thể giúp được gì cho bạn ?
+            <ol>
+                <li>Bạn muốn kiếm cửa hàng gần mình?</li>
+                <li>Order tại trang web</li>
+                <li>Các mặt hàng Best Seller của quán </li>
+                <li>Menu quán</li>
+                <li>Nguồn gốc của The Coffee House</li>
+                <li>Tuyển dụng</li>
+            </ol>
+            HOTLINE: 1800 6936
+        </template>
+    </category>
+
+    <!-- Information about location -->
+    <category>
+        <pattern>1</pattern>
+        <template>
+            Dưới đây là danh sách các cửa hàng của chúng tôi!<br/>
+            Hãy ghé thăm The Coffee House nhé.<br/>
+            <button>
+                <text>Danh sách các cửa hàng:</text>
+                <url>https://thecoffeehouse.com/pages/danh-sach-cua-hang</url>
+            </button>
+            <image>https://lh3.googleusercontent.com/p/AF1QipOWpHIgOlM8-a4OPEh0_QvZZFwQEERPvWxPuZCg=s680-w680-h510</image>
+        </template>
+    </category>
+    
+        <category>
+        <pattern>địa chỉ</pattern>
+        <template>
+            Dưới đây là danh sách các cửa hàng của chúng tôi!<br/>
+            Hãy ghé thăm The Coffee House nhé.<br/>
+            <button>
+                <text>Danh sách các cửa hàng:</text>
+                <url>https://thecoffeehouse.com/pages/danh-sach-cua-hang</url>
+            </button>
+            <image>https://lh3.googleusercontent.com/p/AF1QipOWpHIgOlM8-a4OPEh0_QvZZFwQEERPvWxPuZCg=s680-w680-h510</image>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>danh sách cửa hàng</pattern>
+        <template>
+            Dưới đây là danh sách các cửa hàng của chúng tôi!<br/>
+            Hãy ghé thăm The Coffee House nhé.<br/>
+            <link>
+                <text>Danh sách các cửa hàng:</text>
+                <url>https://thecoffeehouse.com/pages/danh-sach-cua-hang</url>
+            </link>
+            <image>https://lh3.googleusercontent.com/p/AF1QipOWpHIgOlM8-a4OPEh0_QvZZFwQEERPvWxPuZCg=s680-w680-h510</image>
+        </template>
+    </category>
+    
+
+    <!-- Ordering options -->
+    <category>
+        <pattern>2</pattern>
+        <template>
+            Nhấp vào ô bên dưới để đặt hàng:<br/>
+            <button>
+                <text>Áp mã vào đơn hàng ship</text>
+                <url>https://thecoffeehouse.com/collections/all</url>
+            </button>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Order tại trang web</pattern>
+        <template>
+            Nhấp vào ô bên dưới để đặt hàng:<br/>
+            <button>
+                <text>Áp mã vào đơn hàng ship</text>
+                <url>https://thecoffeehouse.com/collections/all</url>
+            </button>
+        </template>
+    </category>
+
+    <category>
+        <pattern>3</pattern>
+        <template>
+            
+            
+           <image>https://product.hstatic.net/1000075078/product/1696220170_phin-sua-tuoi-banh-flan_0172beb85d08408b8912bf5f1dae7fd9.jpg</image>
+           <button>
+               <text>ĐẶT HÀNG</text>
+               <url>https://thecoffeehouse.com/products/phin-sua-tuoi-banh-flan</url>
+           </button>
+           Phin Sữa Tươi Bánh Flan
+           
+           <image>https://product.hstatic.net/1000075078/product/1696220139_tra-xanh-espresso-marble_26a0eb92bfd649508d0e93173e9b3083.jpg</image>
+           <button>
+               <text>ĐẶT HÀNG</text>
+               <url>https://thecoffeehouse.com/products/tra-xanh-espresso-marble</url>
+           </button>
+           Trà Xanh Espresso Marble
+           
+           <image>https://product.hstatic.net/1000075078/product/1675355354_bg-tch-sua-da-no_4fbf208885ed464ab4b5e145336d42a2.jpg</image>
+           <button>
+               <text>ĐẶT HÀNG</text>
+               <url>https://thecoffeehouse.com/products/the-coffee-house-sua-da</url>
+           </button>
+           The Coffee House Sữa Đá
+        </template>
+    </category>
+    
+    
+    <category>
+        <pattern>Best seller</pattern>
+        <template>
+            Các mặt hàng Best Seller của quán:
+            
+           <image>https://product.hstatic.net/1000075078/product/1696220170_phin-sua-tuoi-banh-flan_0172beb85d08408b8912bf5f1dae7fd9.jpg</image>
+           <button>
+               <text>ĐẶT HÀNG</text>
+               <url>https://thecoffeehouse.com/products/phin-sua-tuoi-banh-flan</url>
+           </button>
+           Phin Sữa Tươi Bánh Flan
+           
+           <image>https://product.hstatic.net/1000075078/product/1696220139_tra-xanh-espresso-marble_26a0eb92bfd649508d0e93173e9b3083.jpg</image>
+           <button>
+               <text>ĐẶT HÀNG</text>
+               <url>https://thecoffeehouse.com/products/tra-xanh-espresso-marble</url>
+           </button>
+           Trà Xanh Espresso Marble
+           
+           <image>https://product.hstatic.net/1000075078/product/1675355354_bg-tch-sua-da-no_4fbf208885ed464ab4b5e145336d42a2.jpg</image>
+           <button>
+               <text>ĐẶT HÀNG</text>
+               <url>https://thecoffeehouse.com/products/the-coffee-house-sua-da</url>
+           </button>
+           The Coffee House Sữa Đá
+        </template>
+    </category>
+    
+    
+    <category>
+        <pattern>*</pattern>
+        <template>
+            The Coffee House xin chào!<br/>
+            <image>https://i.ytimg.com/vi/BXMnv80sfGk/maxresdefault.jpg</image>
+            Tháng 2 này chúng tôi hân hạnh gửi tặng Quý khách hàng chương trình khuyến mãi hấp dẫn khi mua 2 cốc trở lên sẽ được tặng 1 cốc
+            <image>https://stc.shopiness.vn/deal/2020/09/07/b/f/9/9/1599474152540_540.jpg</image>
+            Tôi có thể giúp được gì cho bạn ?
+            <ol>
+                <li>Bạn muốn kiếm cửa hàng gần mình?</li>
+                <li>Order tại trang web</li>
+                <li>Các mặt hàng Best Seller của quán </li>
+                <li>Menu quán</li>
+                <li>Nguồn gốc của The Coffee House</li>
+                <li>Tuyển dụng</li>
+            </ol>
+            HOTLINE: 1800 6936
+        </template>
+       
+    </category>
+    
+
+    
+  <category>
+    <pattern>4</pattern>
+    <template>
+        <image>https://bizweb.dktcdn.net/100/425/912/files/fafs-jpeg.jpg?v=1672363821287</image>
+        <button>
+            <text>Menu</text>
+            <url>https://thecoffeehouse.com/collections/all</url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>Menu</pattern>
+    <template>
+        <image>https://lh3.googleusercontent.com/ruITWL1i7i8ibNDjIC7N-i8aGX7EJGF4NCpzcdphNzxjSvcwXoshbJD0wfTdp1XMQH0PVbXU3J6YjoWLfy59meTokqz-kw1koyThwr5TJrQhMN_2pKdishN79zKB5A6FSAfG7bM</image>
+        <button>
+            <text>Menu</text>
+            <url>https://thecoffeehouse.com/collections/all</url>
+        </button>
+    </template>
+</category>
+
+    <category>
+        <pattern>5</pattern>
+        <template>
+            Ra đời năm 2014, The Coffee House xuất phát từ giấc mơ về một “ngôi nhà cafe” của nhà sáng lập Nguyễn Hải Ninh – người trước đó được biết đến với vai trò đồng sáng lập chuỗi cafe Urban Station. The Coffee House mở rộng một cách nhanh chóng và chỉ sau 3 năm ra đời, thương hiệu này đã có 60 cửa hàng tại TP HCM.
+        </template>
+    </category>
+
+<category>
+        <pattern>Nguồn gốc</pattern>
+        <template>
+           Ra đời năm 2014, The Coffee House xuất phát từ giấc mơ về một “ngôi nhà cafe” của nhà sáng lập Nguyễn Hải Ninh – người trước đó được biết đến với vai trò đồng sáng lập chuỗi cafe Urban Station. The Coffee House mở rộng một cách nhanh chóng và chỉ sau 3 năm ra đời, thương hiệu này đã có 60 cửa hàng tại TP HCM.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>6</pattern>
+        <template>
+            Dưới đây là thông tin tuyển dụng của The Coffee House<br/>
+            Hãy tham gia cùng chúng tôi nhé.<br/>
+            <button>
+                <text>Thông tin tuyển dụng:</text>
+                <url>https://tuyendung.thecoffeehouse.com/</url>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>tuyển dụng</pattern>
+        <template>
+            Dưới đây là thông tin tuyển dụng của The Coffee House<br/>
+            Hãy tham gia cùng chúng tôi nhé.<br/>
+            <button>
+                <text>Thông tin tuyển dụng:</text>
+                <url>https://tuyendung.thecoffeehouse.com/</url>
+            </button>
+        </template>
+    </category>
+
+</aiml>
